@@ -1,0 +1,123 @@
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI', sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#667eea,#764ba2);
+min-height:100vh;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:rgba(0,0,0,0.5);
+backdrop-filter:blur(10px);
+color:white;
+}
+
+nav h2{
+font-size:24px;
+letter-spacing:1px;
+}
+
+.menu a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-size:16px;
+transition:0.3s;
+}
+
+.menu a:hover{
+color:#ffd369;
+}
+
+/* HERO SECTION */
+
+.hero{
+text-align:center;
+margin-top:120px;
+color:white;
+padding:20px;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:18px;
+opacity:0.9;
+}
+
+/* BUTTON */
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:12px 25px;
+background:#ffd369;
+color:black;
+border-radius:30px;
+font-weight:bold;
+text-decoration:none;
+transition:0.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
+background:#ffb347;
+}
+
+/* CARD DESIGN */
+
+.card{
+background:rgba(255,255,255,0.15);
+backdrop-filter:blur(10px);
+border-radius:15px;
+padding:30px;
+width:500px;
+margin:80px auto;
+color:white;
+box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+.card h1{
+margin-bottom:20px;
+}
+
+/* LIST */
+
+ul{
+text-align:left;
+line-height:1.8;
+}
+
+/* BUTTONS */
+
+button{
+padding:12px 18px;
+margin:8px;
+border:none;
+border-radius:8px;
+background:#ffd369;
+color:black;
+font-weight:bold;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+transform:scale(1.05);
+background:#ffb347;
+}
+
